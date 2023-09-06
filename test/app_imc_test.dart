@@ -1,8 +1,8 @@
-import 'package:app_imc/app_imc.dart';
+import 'package:app_imc/functionImc.dart';
 import 'package:test/test.dart';
 
 void main() {
   test('calculate', () {
-    expect(calculate(), 42);
+    expect(sum(), 42);
   });
 }
